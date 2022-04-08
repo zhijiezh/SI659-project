@@ -336,7 +336,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   gunTip: {fileID: 110590727}
   camera: {fileID: 963194228}
-  player: {fileID: 110590727}
+  player: {fileID: 529241932}
 --- !u!1 &330669709
 GameObject:
   m_ObjectHideFlags: 0
