@@ -68,6 +68,10 @@ public class Grappling : MonoBehaviour
                 if (Physics.Raycast(pos, forward, out hit , maxDistance, whatIsGrappleable))
                 {
                     grapplePoint = hit.point;
+                    if (joint != null)
+                    {
+                        Destroy(joint);
+                    }
                     joint = player.gameObject.AddComponent<SpringJoint>();
                     joint.autoConfigureConnectedAnchor = false;
                     joint.connectedAnchor = grapplePoint;
