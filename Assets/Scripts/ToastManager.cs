@@ -63,7 +63,7 @@ public class ToastManager : MonoBehaviour {
 
         // Init positions
         hidden_pos = new Vector3(0, 0, 0);
-        visible_pos = new Vector3(0, 250, 0);
+        visible_pos = new Vector3(0, -900, 0);
 
         continue_text.enabled = false;
 
